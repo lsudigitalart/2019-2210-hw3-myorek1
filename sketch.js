@@ -142,24 +142,43 @@ for(var y=0;y<= height; y+= 40){
 
 // large circle behind swuares 
 noFill()
-stroke(5)
 strokeWeight(6);
+stroke(51,51,51,)
 ellipse(260,260,300,300);
 
 //3 white squares 
+
 stroke(2)
+stroke(51,51,51,)
 fill(300,300,300)
 rect(20,210,100,100)
 
 stroke(2)
+stroke(51,51,51,)
 fill(300,300,300)
 rect(210,210,100,100)
 
 stroke(2)
+stroke(51,51,51,)
 fill(300,300,300)
 rect(400,210,100,100)
 
+stroke(2)
+stroke(51,51,51,)
+fill(13,211,243)
+rect(20,210,50,50)
 
+//middle blue rectangle
+stroke(1)
+stroke(51,51,51,)
+fill(13,211,243)
+rect(260,260,50,50)
+
+//rightblue equation
+stroke(2)
+stroke(51,51,51,)
+fill(13,211,243)
+rect(450,210,50,50)
 
 
   }
